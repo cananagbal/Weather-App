@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yeon Sung", cursive;
+}
+
+body{ 
+    background-image: url("https://st3.depositphotos.com/1759390/31722/i/450/depositphotos_317223640-stock-photo-beautiful-sunset-of-the-caribbean.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;    
+}
+
+h1{
+    font-size: 50px;
+    margin: 50px;
+    color: #fbb034;
+    text-shadow: 1px 3px rgba(0,0,0,.9);    
+}
+button{
+    
+    background: none;
+    outline: none;
+    margin-left: 1rem;
+    /* background-color: rgb(84, 171, 214); */
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease .3s;   
+}
+
+button:hover{
+    transform: scale(1.1) ;
+}
+
+input:hover{
+    transform: scale(1.1) ;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+input{
+    background-color: rgb(84, 171, 214);
+    background: none;
+    outline: none;
+    margin: 1rem auto;
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+
+.msg{
+    display: block;
+}
+
+form{
+    text-align: center;
+}
+
+.nav_logo{
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.page-footer{
+    text-align: right;
+    margin-top: 5rem;
+}
